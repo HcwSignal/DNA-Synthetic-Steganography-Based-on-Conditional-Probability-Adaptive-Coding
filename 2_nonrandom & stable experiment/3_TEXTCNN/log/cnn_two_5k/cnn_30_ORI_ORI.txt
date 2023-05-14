@@ -1,0 +1,485 @@
+[2021-07-07 14:58:13] STOP            
+[2021-07-07 14:58:13] 200
+[2021-07-07 14:58:13] SAVE_EVERY      
+[2021-07-07 14:58:13] 20
+[2021-07-07 14:58:13] LEARNING_RATE   
+[2021-07-07 14:58:13] 0.004
+[2021-07-07 14:58:13] EPOCH           
+[2021-07-07 14:58:13] 250
+[2021-07-07 14:58:13] DROPOUT_RATE    
+[2021-07-07 14:58:13] 0.2
+[2021-07-07 14:58:13] CLASS_NUM       
+[2021-07-07 14:58:13] 2
+[2021-07-07 14:58:13] FILTER_SIZE     
+[2021-07-07 14:58:13] [3, 4, 5]
+[2021-07-07 14:58:13] FILTER_NUM      
+[2021-07-07 14:58:13] 128
+[2021-07-07 14:58:13] EMBED_SIZE      
+[2021-07-07 14:58:13] 128
+[2021-07-07 14:58:13] BATCH_SIZE      
+[2021-07-07 14:58:13] 50
+[2021-07-07 14:58:13] data_helper     
+[2021-07-07 14:58:13] <data.DataHelper object at 0x000001D50C275AC8>
+[2021-07-07 14:58:17] epoch 1   training loss 0.7033    test loss 0.7103    train acc 0.5008    test acc 0.4955
+[2021-07-07 14:58:18] epoch 2   training loss 0.6952    test loss 0.6963    train acc 0.5242    test acc 0.5215
+[2021-07-07 14:58:19] epoch 3   training loss 0.6895    test loss 0.6945    train acc 0.5425    test acc 0.5225
+[2021-07-07 14:58:20] epoch 4   training loss 0.6897    test loss 0.6905    train acc 0.5370    test acc 0.5335
+[2021-07-07 14:58:21] epoch 5   training loss 0.6853    test loss 0.6873    train acc 0.5489    test acc 0.5450
+[2021-07-07 14:58:23] epoch 6   training loss 0.6793    test loss 0.6834    train acc 0.5643    test acc 0.5580
+[2021-07-07 14:58:24] epoch 7   training loss 0.6823    test loss 0.6861    train acc 0.5579    test acc 0.5415
+[2021-07-07 14:58:25] epoch 8   training loss 0.6761    test loss 0.6771    train acc 0.5774    test acc 0.5855
+[2021-07-07 14:58:27] epoch 9   training loss 0.6725    test loss 0.6786    train acc 0.5906    test acc 0.5660
+[2021-07-07 14:58:28] epoch 10   training loss 0.6714    test loss 0.6766    train acc 0.5853    test acc 0.5685
+[2021-07-07 14:58:29] epoch 11   training loss 0.6684    test loss 0.6776    train acc 0.5920    test acc 0.5660
+[2021-07-07 14:58:30] epoch 12   training loss 0.6671    test loss 0.6737    train acc 0.5955    test acc 0.5850
+[2021-07-07 14:58:31] epoch 13   training loss 0.6654    test loss 0.6784    train acc 0.5951    test acc 0.5660
+[2021-07-07 14:58:32] epoch 14   training loss 0.6639    test loss 0.6733    train acc 0.5959    test acc 0.5715
+[2021-07-07 14:58:34] epoch 15   training loss 0.6641    test loss 0.6685    train acc 0.5978    test acc 0.6085
+[2021-07-07 14:58:35] epoch 16   training loss 0.6615    test loss 0.6724    train acc 0.6150    test acc 0.5925
+[2021-07-07 14:58:36] epoch 17   training loss 0.6591    test loss 0.6646    train acc 0.6108    test acc 0.6075
+[2021-07-07 14:58:37] epoch 18   training loss 0.6604    test loss 0.6704    train acc 0.6080    test acc 0.5975
+[2021-07-07 14:58:38] epoch 19   training loss 0.6571    test loss 0.6664    train acc 0.6185    test acc 0.5935
+[2021-07-07 14:58:40] epoch 20   training loss 0.6573    test loss 0.6661    train acc 0.6111    test acc 0.6085
+[2021-07-07 14:58:41] epoch 21   training loss 0.6545    test loss 0.6676    train acc 0.6174    test acc 0.5910
+[2021-07-07 14:58:42] epoch 22   training loss 0.6518    test loss 0.6623    train acc 0.6199    test acc 0.6075
+[2021-07-07 14:58:43] epoch 23   training loss 0.6495    test loss 0.6714    train acc 0.6326    test acc 0.5780
+[2021-07-07 14:58:44] epoch 24   training loss 0.6497    test loss 0.6602    train acc 0.6240    test acc 0.6105
+[2021-07-07 14:58:46] epoch 25   training loss 0.6514    test loss 0.6568    train acc 0.6178    test acc 0.6165
+[2021-07-07 14:58:47] epoch 26   training loss 0.6457    test loss 0.6555    train acc 0.6309    test acc 0.6215
+[2021-07-07 14:58:48] epoch 27   training loss 0.6441    test loss 0.6674    train acc 0.6376    test acc 0.5945
+[2021-07-07 14:58:49] epoch 28   training loss 0.6450    test loss 0.6668    train acc 0.6282    test acc 0.6065
+[2021-07-07 14:58:51] epoch 29   training loss 0.6432    test loss 0.6553    train acc 0.6316    test acc 0.6190
+[2021-07-07 14:58:52] epoch 30   training loss 0.6432    test loss 0.6542    train acc 0.6345    test acc 0.6210
+[2021-07-07 14:58:53] epoch 31   training loss 0.6407    test loss 0.6616    train acc 0.6428    test acc 0.6105
+[2021-07-07 14:58:54] epoch 32   training loss 0.6423    test loss 0.6549    train acc 0.6354    test acc 0.6150
+[2021-07-07 14:58:55] epoch 33   training loss 0.6400    test loss 0.6674    train acc 0.6381    test acc 0.5980
+[2021-07-07 14:58:57] epoch 34   training loss 0.6406    test loss 0.6620    train acc 0.6415    test acc 0.6105
+[2021-07-07 14:58:58] epoch 35   training loss 0.6371    test loss 0.6670    train acc 0.6432    test acc 0.5895
+[2021-07-07 14:58:59] epoch 36   training loss 0.6398    test loss 0.6628    train acc 0.6384    test acc 0.5975
+[2021-07-07 14:59:00] epoch 37   training loss 0.6385    test loss 0.6583    train acc 0.6364    test acc 0.5985
+[2021-07-07 14:59:01] epoch 38   training loss 0.6342    test loss 0.6612    train acc 0.6516    test acc 0.6005
+[2021-07-07 14:59:03] epoch 39   training loss 0.6337    test loss 0.6570    train acc 0.6442    test acc 0.6210
+[2021-07-07 14:59:04] epoch 40   training loss 0.6338    test loss 0.6618    train acc 0.6501    test acc 0.5875
+[2021-07-07 14:59:05] epoch 41   training loss 0.6324    test loss 0.6581    train acc 0.6492    test acc 0.6095
+[2021-07-07 14:59:07] epoch 42   training loss 0.6307    test loss 0.6550    train acc 0.6561    test acc 0.6070
+[2021-07-07 14:59:08] epoch 43   training loss 0.6303    test loss 0.6562    train acc 0.6491    test acc 0.6150
+[2021-07-07 14:59:09] epoch 44   training loss 0.6292    test loss 0.6557    train acc 0.6567    test acc 0.6165
+[2021-07-07 14:59:10] epoch 45   training loss 0.6320    test loss 0.6576    train acc 0.6509    test acc 0.6110
+[2021-07-07 14:59:11] epoch 46   training loss 0.6282    test loss 0.6660    train acc 0.6559    test acc 0.6005
+[2021-07-07 14:59:13] epoch 47   training loss 0.6247    test loss 0.6634    train acc 0.6597    test acc 0.6020
+[2021-07-07 14:59:14] epoch 48   training loss 0.6265    test loss 0.6536    train acc 0.6561    test acc 0.6125
+[2021-07-07 14:59:15] epoch 49   training loss 0.6248    test loss 0.6496    train acc 0.6575    test acc 0.6260
+[2021-07-07 14:59:16] epoch 50   training loss 0.6255    test loss 0.6569    train acc 0.6623    test acc 0.6100
+[2021-07-07 14:59:17] epoch 51   training loss 0.6230    test loss 0.6524    train acc 0.6653    test acc 0.6185
+[2021-07-07 14:59:19] epoch 52   training loss 0.6250    test loss 0.6578    train acc 0.6575    test acc 0.6160
+[2021-07-07 14:59:20] epoch 53   training loss 0.6237    test loss 0.6576    train acc 0.6637    test acc 0.6125
+[2021-07-07 14:59:21] epoch 54   training loss 0.6221    test loss 0.6510    train acc 0.6644    test acc 0.6225
+[2021-07-07 14:59:22] epoch 55   training loss 0.6181    test loss 0.6581    train acc 0.6707    test acc 0.6020
+[2021-07-07 14:59:23] epoch 56   training loss 0.6274    test loss 0.6663    train acc 0.6593    test acc 0.5890
+[2021-07-07 14:59:25] epoch 57   training loss 0.6179    test loss 0.6629    train acc 0.6679    test acc 0.6000
+[2021-07-07 14:59:26] epoch 58   training loss 0.6194    test loss 0.6603    train acc 0.6693    test acc 0.5980
+[2021-07-07 14:59:27] epoch 59   training loss 0.6200    test loss 0.6591    train acc 0.6690    test acc 0.6070
+[2021-07-07 14:59:28] epoch 60   training loss 0.6193    test loss 0.6525    train acc 0.6671    test acc 0.6095
+[2021-07-07 14:59:29] epoch 61   training loss 0.6177    test loss 0.6561    train acc 0.6681    test acc 0.6085
+[2021-07-07 14:59:31] epoch 62   training loss 0.6178    test loss 0.6626    train acc 0.6689    test acc 0.6060
+[2021-07-07 14:59:32] epoch 63   training loss 0.6165    test loss 0.6494    train acc 0.6680    test acc 0.6255
+[2021-07-07 14:59:33] epoch 64   training loss 0.6188    test loss 0.6520    train acc 0.6666    test acc 0.6200
+[2021-07-07 14:59:35] epoch 65   training loss 0.6158    test loss 0.6573    train acc 0.6734    test acc 0.6200
+[2021-07-07 14:59:36] epoch 66   training loss 0.6135    test loss 0.6632    train acc 0.6740    test acc 0.5955
+[2021-07-07 14:59:37] epoch 67   training loss 0.6124    test loss 0.6483    train acc 0.6784    test acc 0.6375
+[2021-07-07 14:59:38] epoch 68   training loss 0.6145    test loss 0.6470    train acc 0.6759    test acc 0.6350
+[2021-07-07 14:59:40] epoch 69   training loss 0.6122    test loss 0.6549    train acc 0.6755    test acc 0.6195
+[2021-07-07 14:59:41] epoch 70   training loss 0.6111    test loss 0.6420    train acc 0.6779    test acc 0.6450
+[2021-07-07 14:59:42] epoch 71   training loss 0.6117    test loss 0.6609    train acc 0.6745    test acc 0.6085
+[2021-07-07 14:59:44] epoch 72   training loss 0.6070    test loss 0.6524    train acc 0.6823    test acc 0.6175
+[2021-07-07 14:59:45] epoch 73   training loss 0.6095    test loss 0.6597    train acc 0.6793    test acc 0.6085
+[2021-07-07 14:59:46] epoch 74   training loss 0.6066    test loss 0.6613    train acc 0.6820    test acc 0.6020
+[2021-07-07 14:59:47] epoch 75   training loss 0.6090    test loss 0.6565    train acc 0.6844    test acc 0.6125
+[2021-07-07 14:59:49] epoch 76   training loss 0.6080    test loss 0.6493    train acc 0.6821    test acc 0.6215
+[2021-07-07 14:59:50] epoch 77   training loss 0.6094    test loss 0.6444    train acc 0.6769    test acc 0.6295
+[2021-07-07 14:59:51] epoch 78   training loss 0.6115    test loss 0.6507    train acc 0.6775    test acc 0.6200
+[2021-07-07 14:59:53] epoch 79   training loss 0.6049    test loss 0.6514    train acc 0.6885    test acc 0.6205
+[2021-07-07 14:59:54] epoch 80   training loss 0.6051    test loss 0.6552    train acc 0.6871    test acc 0.6125
+[2021-07-07 14:59:55] epoch 81   training loss 0.6060    test loss 0.6518    train acc 0.6860    test acc 0.6170
+[2021-07-07 14:59:56] epoch 82   training loss 0.6071    test loss 0.6497    train acc 0.6841    test acc 0.6200
+[2021-07-07 14:59:57] epoch 83   training loss 0.6034    test loss 0.6499    train acc 0.6885    test acc 0.6200
+[2021-07-07 14:59:59] epoch 84   training loss 0.5986    test loss 0.6484    train acc 0.6913    test acc 0.6290
+[2021-07-07 15:00:00] epoch 85   training loss 0.6030    test loss 0.6556    train acc 0.6884    test acc 0.6140
+[2021-07-07 15:00:01] epoch 86   training loss 0.6028    test loss 0.6588    train acc 0.6879    test acc 0.6125
+[2021-07-07 15:00:02] epoch 87   training loss 0.6006    test loss 0.6501    train acc 0.6916    test acc 0.6260
+[2021-07-07 15:00:04] epoch 88   training loss 0.6008    test loss 0.6481    train acc 0.6891    test acc 0.6335
+[2021-07-07 15:00:05] epoch 89   training loss 0.5997    test loss 0.6489    train acc 0.6966    test acc 0.6295
+[2021-07-07 15:00:06] epoch 90   training loss 0.6009    test loss 0.6521    train acc 0.6849    test acc 0.6195
+[2021-07-07 15:00:07] epoch 91   training loss 0.5976    test loss 0.6536    train acc 0.6963    test acc 0.6110
+[2021-07-07 15:00:09] epoch 92   training loss 0.5960    test loss 0.6537    train acc 0.6937    test acc 0.6245
+[2021-07-07 15:00:10] epoch 93   training loss 0.5933    test loss 0.6467    train acc 0.7036    test acc 0.6260
+[2021-07-07 15:00:11] epoch 94   training loss 0.5962    test loss 0.6514    train acc 0.7019    test acc 0.6170
+[2021-07-07 15:00:12] epoch 95   training loss 0.5969    test loss 0.6524    train acc 0.6949    test acc 0.6050
+[2021-07-07 15:00:14] epoch 96   training loss 0.5960    test loss 0.6443    train acc 0.6989    test acc 0.6350
+[2021-07-07 15:00:15] epoch 97   training loss 0.5975    test loss 0.6558    train acc 0.6886    test acc 0.6190
+[2021-07-07 15:00:16] epoch 98   training loss 0.5954    test loss 0.6441    train acc 0.6974    test acc 0.6205
+[2021-07-07 15:00:17] epoch 99   training loss 0.5910    test loss 0.6591    train acc 0.7051    test acc 0.6085
+[2021-07-07 15:00:19] epoch 100   training loss 0.5896    test loss 0.6545    train acc 0.7050    test acc 0.6125
+[2021-07-07 15:00:20] epoch 101   training loss 0.5938    test loss 0.6506    train acc 0.6983    test acc 0.6250
+[2021-07-07 15:00:21] epoch 102   training loss 0.5924    test loss 0.6455    train acc 0.7040    test acc 0.6340
+[2021-07-07 15:00:23] epoch 103   training loss 0.5920    test loss 0.6432    train acc 0.7027    test acc 0.6275
+[2021-07-07 15:00:24] epoch 104   training loss 0.5879    test loss 0.6493    train acc 0.7056    test acc 0.6335
+[2021-07-07 15:00:25] epoch 105   training loss 0.5884    test loss 0.6584    train acc 0.7037    test acc 0.6140
+[2021-07-07 15:00:26] epoch 106   training loss 0.5879    test loss 0.6555    train acc 0.7083    test acc 0.6125
+[2021-07-07 15:00:28] epoch 107   training loss 0.5887    test loss 0.6561    train acc 0.7027    test acc 0.6190
+[2021-07-07 15:00:29] epoch 108   training loss 0.5834    test loss 0.6519    train acc 0.7149    test acc 0.6190
+[2021-07-07 15:00:30] epoch 109   training loss 0.5907    test loss 0.6510    train acc 0.7016    test acc 0.6225
+[2021-07-07 15:00:31] epoch 110   training loss 0.5849    test loss 0.6454    train acc 0.7105    test acc 0.6310
+[2021-07-07 15:00:33] epoch 111   training loss 0.5879    test loss 0.6510    train acc 0.7071    test acc 0.6155
+[2021-07-07 15:00:34] epoch 112   training loss 0.5834    test loss 0.6507    train acc 0.7117    test acc 0.6215
+[2021-07-07 15:00:35] epoch 113   training loss 0.5823    test loss 0.6594    train acc 0.7195    test acc 0.6075
+[2021-07-07 15:00:36] epoch 114   training loss 0.5816    test loss 0.6531    train acc 0.7164    test acc 0.6200
+[2021-07-07 15:00:37] epoch 115   training loss 0.5830    test loss 0.6563    train acc 0.7145    test acc 0.6095
+[2021-07-07 15:00:39] epoch 116   training loss 0.5798    test loss 0.6471    train acc 0.7188    test acc 0.6240
+[2021-07-07 15:00:40] epoch 117   training loss 0.5819    test loss 0.6549    train acc 0.7116    test acc 0.6110
+[2021-07-07 15:00:41] epoch 118   training loss 0.5804    test loss 0.6433    train acc 0.7171    test acc 0.6275
+[2021-07-07 15:00:42] epoch 119   training loss 0.5827    test loss 0.6582    train acc 0.7126    test acc 0.6085
+[2021-07-07 15:00:44] epoch 120   training loss 0.5787    test loss 0.6493    train acc 0.7176    test acc 0.6250
+[2021-07-07 15:00:45] epoch 121   training loss 0.5790    test loss 0.6518    train acc 0.7183    test acc 0.6185
+[2021-07-07 15:00:46] epoch 122   training loss 0.5763    test loss 0.6487    train acc 0.7221    test acc 0.6260
+[2021-07-07 15:00:47] epoch 123   training loss 0.5813    test loss 0.6453    train acc 0.7140    test acc 0.6315
+[2021-07-07 15:00:48] epoch 124   training loss 0.5759    test loss 0.6494    train acc 0.7214    test acc 0.6250
+[2021-07-07 15:00:50] epoch 125   training loss 0.5801    test loss 0.6514    train acc 0.7176    test acc 0.6325
+[2021-07-07 15:00:51] epoch 126   training loss 0.5786    test loss 0.6523    train acc 0.7191    test acc 0.6260
+[2021-07-07 15:00:52] epoch 127   training loss 0.5767    test loss 0.6504    train acc 0.7200    test acc 0.6235
+[2021-07-07 15:00:53] epoch 128   training loss 0.5779    test loss 0.6517    train acc 0.7180    test acc 0.6160
+[2021-07-07 15:00:55] epoch 129   training loss 0.5741    test loss 0.6559    train acc 0.7259    test acc 0.6175
+[2021-07-07 15:00:56] epoch 130   training loss 0.5752    test loss 0.6408    train acc 0.7229    test acc 0.6425
+[2021-07-07 15:00:57] epoch 131   training loss 0.5690    test loss 0.6465    train acc 0.7350    test acc 0.6260
+[2021-07-07 15:00:58] epoch 132   training loss 0.5702    test loss 0.6560    train acc 0.7284    test acc 0.6185
+[2021-07-07 15:01:00] epoch 133   training loss 0.5730    test loss 0.6553    train acc 0.7262    test acc 0.6255
+[2021-07-07 15:01:01] epoch 134   training loss 0.5686    test loss 0.6520    train acc 0.7316    test acc 0.6175
+[2021-07-07 15:01:02] epoch 135   training loss 0.5735    test loss 0.6441    train acc 0.7234    test acc 0.6350
+[2021-07-07 15:01:03] epoch 136   training loss 0.5699    test loss 0.6528    train acc 0.7309    test acc 0.6170
+[2021-07-07 15:01:04] epoch 137   training loss 0.5685    test loss 0.6497    train acc 0.7335    test acc 0.6210
+[2021-07-07 15:01:06] epoch 138   training loss 0.5660    test loss 0.6354    train acc 0.7375    test acc 0.6485
+[2021-07-07 15:01:07] epoch 139   training loss 0.5643    test loss 0.6468    train acc 0.7392    test acc 0.6275
+[2021-07-07 15:01:08] epoch 140   training loss 0.5691    test loss 0.6512    train acc 0.7299    test acc 0.6170
+[2021-07-07 15:01:09] epoch 141   training loss 0.5691    test loss 0.6511    train acc 0.7281    test acc 0.6320
+[2021-07-07 15:01:11] epoch 142   training loss 0.5652    test loss 0.6556    train acc 0.7351    test acc 0.6120
+[2021-07-07 15:01:12] epoch 143   training loss 0.5678    test loss 0.6538    train acc 0.7332    test acc 0.6270
+[2021-07-07 15:01:13] epoch 144   training loss 0.5652    test loss 0.6451    train acc 0.7384    test acc 0.6275
+[2021-07-07 15:01:14] epoch 145   training loss 0.5617    test loss 0.6475    train acc 0.7430    test acc 0.6305
+[2021-07-07 15:01:15] epoch 146   training loss 0.5655    test loss 0.6485    train acc 0.7389    test acc 0.6415
+[2021-07-07 15:01:17] epoch 147   training loss 0.5612    test loss 0.6518    train acc 0.7430    test acc 0.6200
+[2021-07-07 15:01:18] epoch 148   training loss 0.5618    test loss 0.6456    train acc 0.7414    test acc 0.6385
+[2021-07-07 15:01:19] epoch 149   training loss 0.5604    test loss 0.6496    train acc 0.7431    test acc 0.6280
+[2021-07-07 15:01:20] epoch 150   training loss 0.5617    test loss 0.6458    train acc 0.7436    test acc 0.6255
+[2021-07-07 15:01:22] epoch 151   training loss 0.5632    test loss 0.6476    train acc 0.7376    test acc 0.6225
+[2021-07-07 15:01:23] epoch 152   training loss 0.5593    test loss 0.6475    train acc 0.7424    test acc 0.6265
+[2021-07-07 15:01:24] epoch 153   training loss 0.5566    test loss 0.6513    train acc 0.7459    test acc 0.6290
+[2021-07-07 15:01:25] epoch 154   training loss 0.5612    test loss 0.6436    train acc 0.7438    test acc 0.6300
+[2021-07-07 15:01:26] epoch 155   training loss 0.5596    test loss 0.6435    train acc 0.7441    test acc 0.6350
+[2021-07-07 15:01:28] epoch 156   training loss 0.5595    test loss 0.6507    train acc 0.7471    test acc 0.6190
+[2021-07-07 15:01:29] epoch 157   training loss 0.5593    test loss 0.6439    train acc 0.7410    test acc 0.6345
+[2021-07-07 15:01:30] epoch 158   training loss 0.5557    test loss 0.6531    train acc 0.7471    test acc 0.6255
+[2021-07-07 15:01:31] epoch 159   training loss 0.5593    test loss 0.6520    train acc 0.7409    test acc 0.6190
+[2021-07-07 15:01:32] epoch 160   training loss 0.5571    test loss 0.6498    train acc 0.7431    test acc 0.6300
+[2021-07-07 15:01:34] epoch 161   training loss 0.5568    test loss 0.6494    train acc 0.7438    test acc 0.6195
+[2021-07-07 15:01:35] epoch 162   training loss 0.5546    test loss 0.6454    train acc 0.7510    test acc 0.6210
+[2021-07-07 15:01:36] epoch 163   training loss 0.5535    test loss 0.6523    train acc 0.7519    test acc 0.6165
+[2021-07-07 15:01:37] epoch 164   training loss 0.5508    test loss 0.6412    train acc 0.7538    test acc 0.6355
+[2021-07-07 15:01:39] epoch 165   training loss 0.5559    test loss 0.6525    train acc 0.7485    test acc 0.6220
+[2021-07-07 15:01:40] epoch 166   training loss 0.5507    test loss 0.6568    train acc 0.7571    test acc 0.6135
+[2021-07-07 15:01:41] epoch 167   training loss 0.5500    test loss 0.6452    train acc 0.7554    test acc 0.6350
+[2021-07-07 15:01:42] epoch 168   training loss 0.5498    test loss 0.6416    train acc 0.7586    test acc 0.6390
+[2021-07-07 15:01:44] epoch 169   training loss 0.5491    test loss 0.6593    train acc 0.7584    test acc 0.6080
+[2021-07-07 15:01:45] epoch 170   training loss 0.5430    test loss 0.6526    train acc 0.7652    test acc 0.6200
+[2021-07-07 15:01:46] epoch 171   training loss 0.5471    test loss 0.6413    train acc 0.7602    test acc 0.6265
+[2021-07-07 15:01:47] epoch 172   training loss 0.5504    test loss 0.6432    train acc 0.7595    test acc 0.6400
+[2021-07-07 15:01:48] epoch 173   training loss 0.5485    test loss 0.6509    train acc 0.7585    test acc 0.6150
+[2021-07-07 15:01:50] epoch 174   training loss 0.5479    test loss 0.6331    train acc 0.7589    test acc 0.6510
+[2021-07-07 15:01:51] epoch 175   training loss 0.5487    test loss 0.6480    train acc 0.7579    test acc 0.6245
+[2021-07-07 15:01:52] epoch 176   training loss 0.5455    test loss 0.6487    train acc 0.7589    test acc 0.6260
+[2021-07-07 15:01:54] epoch 177   training loss 0.5452    test loss 0.6471    train acc 0.7588    test acc 0.6240
+[2021-07-07 15:01:55] epoch 178   training loss 0.5451    test loss 0.6407    train acc 0.7628    test acc 0.6365
+[2021-07-07 15:01:56] epoch 179   training loss 0.5404    test loss 0.6514    train acc 0.7709    test acc 0.6190
+[2021-07-07 15:01:57] epoch 180   training loss 0.5459    test loss 0.6466    train acc 0.7604    test acc 0.6250
+[2021-07-07 15:01:59] epoch 181   training loss 0.5425    test loss 0.6518    train acc 0.7644    test acc 0.6215
+[2021-07-07 15:02:00] epoch 182   training loss 0.5429    test loss 0.6489    train acc 0.7671    test acc 0.6270
+[2021-07-07 15:02:01] epoch 183   training loss 0.5432    test loss 0.6416    train acc 0.7641    test acc 0.6420
+[2021-07-07 15:02:02] epoch 184   training loss 0.5465    test loss 0.6430    train acc 0.7579    test acc 0.6275
+[2021-07-07 15:02:03] epoch 185   training loss 0.5401    test loss 0.6491    train acc 0.7672    test acc 0.6185
+[2021-07-07 15:02:05] epoch 186   training loss 0.5408    test loss 0.6480    train acc 0.7659    test acc 0.6245
+[2021-07-07 15:02:06] epoch 187   training loss 0.5408    test loss 0.6456    train acc 0.7659    test acc 0.6285
+[2021-07-07 15:02:07] epoch 188   training loss 0.5410    test loss 0.6446    train acc 0.7696    test acc 0.6275
+[2021-07-07 15:02:08] epoch 189   training loss 0.5361    test loss 0.6516    train acc 0.7726    test acc 0.6195
+[2021-07-07 15:02:10] epoch 190   training loss 0.5449    test loss 0.6550    train acc 0.7570    test acc 0.6165
+[2021-07-07 15:02:11] epoch 191   training loss 0.5377    test loss 0.6443    train acc 0.7705    test acc 0.6340
+[2021-07-07 15:02:12] epoch 192   training loss 0.5367    test loss 0.6423    train acc 0.7735    test acc 0.6250
+[2021-07-07 15:02:13] epoch 193   training loss 0.5374    test loss 0.6504    train acc 0.7688    test acc 0.6215
+[2021-07-07 15:02:14] epoch 194   training loss 0.5343    test loss 0.6396    train acc 0.7781    test acc 0.6340
+[2021-07-07 15:02:16] epoch 195   training loss 0.5360    test loss 0.6454    train acc 0.7775    test acc 0.6335
+[2021-07-07 15:02:17] epoch 196   training loss 0.5345    test loss 0.6440    train acc 0.7745    test acc 0.6310
+[2021-07-07 15:02:18] epoch 197   training loss 0.5343    test loss 0.6532    train acc 0.7771    test acc 0.6220
+[2021-07-07 15:02:19] epoch 198   training loss 0.5332    test loss 0.6462    train acc 0.7772    test acc 0.6300
+[2021-07-07 15:02:21] epoch 199   training loss 0.5353    test loss 0.6446    train acc 0.7752    test acc 0.6260
+[2021-07-07 15:02:22] epoch 200   training loss 0.5330    test loss 0.6554    train acc 0.7740    test acc 0.6225
+[2021-07-07 15:02:23] epoch 201   training loss 0.5312    test loss 0.6498    train acc 0.7819    test acc 0.6280
+[2021-07-07 15:02:24] epoch 202   training loss 0.5324    test loss 0.6451    train acc 0.7770    test acc 0.6400
+[2021-07-07 15:02:25] epoch 203   training loss 0.5285    test loss 0.6429    train acc 0.7867    test acc 0.6310
+[2021-07-07 15:02:27] epoch 204   training loss 0.5268    test loss 0.6389    train acc 0.7866    test acc 0.6415
+[2021-07-07 15:02:28] epoch 205   training loss 0.5261    test loss 0.6422    train acc 0.7911    test acc 0.6420
+[2021-07-07 15:02:29] epoch 206   training loss 0.5329    test loss 0.6508    train acc 0.7772    test acc 0.6275
+[2021-07-07 15:02:30] epoch 207   training loss 0.5311    test loss 0.6460    train acc 0.7798    test acc 0.6420
+[2021-07-07 15:02:32] epoch 208   training loss 0.5291    test loss 0.6465    train acc 0.7819    test acc 0.6255
+[2021-07-07 15:02:33] epoch 209   training loss 0.5280    test loss 0.6444    train acc 0.7855    test acc 0.6330
+[2021-07-07 15:02:34] epoch 210   training loss 0.5262    test loss 0.6447    train acc 0.7841    test acc 0.6295
+[2021-07-07 15:02:35] epoch 211   training loss 0.5248    test loss 0.6427    train acc 0.7886    test acc 0.6315
+[2021-07-07 15:02:36] epoch 212   training loss 0.5271    test loss 0.6456    train acc 0.7819    test acc 0.6370
+[2021-07-07 15:02:38] epoch 213   training loss 0.5275    test loss 0.6387    train acc 0.7823    test acc 0.6390
+[2021-07-07 15:02:39] epoch 214   training loss 0.5229    test loss 0.6415    train acc 0.7897    test acc 0.6445
+[2021-07-07 15:02:40] epoch 215   training loss 0.5254    test loss 0.6436    train acc 0.7887    test acc 0.6290
+[2021-07-07 15:02:41] epoch 216   training loss 0.5249    test loss 0.6415    train acc 0.7880    test acc 0.6395
+[2021-07-07 15:02:41] best acc: 0.6510
+[2021-07-07 15:02:41] STOP            
+[2021-07-07 15:02:41] 200
+[2021-07-07 15:02:41] SAVE_EVERY      
+[2021-07-07 15:02:41] 20
+[2021-07-07 15:02:41] LEARNING_RATE   
+[2021-07-07 15:02:41] 0.004
+[2021-07-07 15:02:41] EPOCH           
+[2021-07-07 15:02:41] 250
+[2021-07-07 15:02:41] DROPOUT_RATE    
+[2021-07-07 15:02:41] 0.2
+[2021-07-07 15:02:41] CLASS_NUM       
+[2021-07-07 15:02:41] 2
+[2021-07-07 15:02:41] FILTER_SIZE     
+[2021-07-07 15:02:41] [3, 4, 5]
+[2021-07-07 15:02:41] FILTER_NUM      
+[2021-07-07 15:02:41] 128
+[2021-07-07 15:02:41] EMBED_SIZE      
+[2021-07-07 15:02:41] 128
+[2021-07-07 15:02:41] BATCH_SIZE      
+[2021-07-07 15:02:41] 50
+[2021-07-07 15:02:41] data_helper     
+[2021-07-07 15:02:41] <data.DataHelper object at 0x000001D50C275AC8>
+[2021-07-07 15:02:43] epoch 1   training loss 0.6983    test loss 0.6936    train acc 0.5176    test acc 0.5205
+[2021-07-07 15:02:44] epoch 2   training loss 0.6940    test loss 0.6948    train acc 0.5232    test acc 0.5245
+[2021-07-07 15:02:45] epoch 3   training loss 0.6882    test loss 0.6895    train acc 0.5450    test acc 0.5375
+[2021-07-07 15:02:46] epoch 4   training loss 0.6880    test loss 0.6829    train acc 0.5396    test acc 0.5580
+[2021-07-07 15:02:47] epoch 5   training loss 0.6855    test loss 0.6805    train acc 0.5524    test acc 0.5625
+[2021-07-07 15:02:49] epoch 6   training loss 0.6805    test loss 0.6856    train acc 0.5655    test acc 0.5685
+[2021-07-07 15:02:50] epoch 7   training loss 0.6786    test loss 0.6790    train acc 0.5655    test acc 0.5705
+[2021-07-07 15:02:51] epoch 8   training loss 0.6754    test loss 0.6801    train acc 0.5771    test acc 0.5640
+[2021-07-07 15:02:52] epoch 9   training loss 0.6766    test loss 0.6745    train acc 0.5770    test acc 0.5850
+[2021-07-07 15:02:54] epoch 10   training loss 0.6706    test loss 0.6743    train acc 0.5913    test acc 0.5845
+[2021-07-07 15:02:55] epoch 11   training loss 0.6722    test loss 0.6739    train acc 0.5889    test acc 0.5825
+[2021-07-07 15:02:56] epoch 12   training loss 0.6680    test loss 0.6758    train acc 0.5896    test acc 0.5665
+[2021-07-07 15:02:58] epoch 13   training loss 0.6658    test loss 0.6743    train acc 0.5974    test acc 0.5870
+[2021-07-07 15:02:59] epoch 14   training loss 0.6661    test loss 0.6873    train acc 0.5959    test acc 0.5515
+[2021-07-07 15:03:00] epoch 15   training loss 0.6630    test loss 0.6718    train acc 0.6024    test acc 0.5820
+[2021-07-07 15:03:01] epoch 16   training loss 0.6626    test loss 0.6685    train acc 0.6052    test acc 0.5970
+[2021-07-07 15:03:03] epoch 17   training loss 0.6575    test loss 0.6690    train acc 0.6150    test acc 0.5915
+[2021-07-07 15:03:04] epoch 18   training loss 0.6583    test loss 0.6671    train acc 0.6092    test acc 0.5925
+[2021-07-07 15:03:05] epoch 19   training loss 0.6524    test loss 0.6660    train acc 0.6250    test acc 0.5875
+[2021-07-07 15:03:06] epoch 20   training loss 0.6553    test loss 0.6661    train acc 0.6171    test acc 0.5820
+[2021-07-07 15:03:08] epoch 21   training loss 0.6557    test loss 0.6654    train acc 0.6190    test acc 0.6005
+[2021-07-07 15:03:09] epoch 22   training loss 0.6527    test loss 0.6633    train acc 0.6214    test acc 0.5990
+[2021-07-07 15:03:10] epoch 23   training loss 0.6541    test loss 0.6623    train acc 0.6179    test acc 0.6055
+[2021-07-07 15:03:11] epoch 24   training loss 0.6498    test loss 0.6613    train acc 0.6279    test acc 0.6225
+[2021-07-07 15:03:13] epoch 25   training loss 0.6454    test loss 0.6584    train acc 0.6322    test acc 0.6170
+[2021-07-07 15:03:14] epoch 26   training loss 0.6476    test loss 0.6553    train acc 0.6325    test acc 0.6310
+[2021-07-07 15:03:15] epoch 27   training loss 0.6482    test loss 0.6592    train acc 0.6258    test acc 0.6020
+[2021-07-07 15:03:16] epoch 28   training loss 0.6474    test loss 0.6560    train acc 0.6310    test acc 0.6140
+[2021-07-07 15:03:17] epoch 29   training loss 0.6455    test loss 0.6640    train acc 0.6298    test acc 0.6030
+[2021-07-07 15:03:19] epoch 30   training loss 0.6447    test loss 0.6667    train acc 0.6310    test acc 0.5900
+[2021-07-07 15:03:20] epoch 31   training loss 0.6398    test loss 0.6582    train acc 0.6409    test acc 0.6160
+[2021-07-07 15:03:21] epoch 32   training loss 0.6426    test loss 0.6619    train acc 0.6368    test acc 0.6055
+[2021-07-07 15:03:22] epoch 33   training loss 0.6419    test loss 0.6533    train acc 0.6402    test acc 0.6280
+[2021-07-07 15:03:24] epoch 34   training loss 0.6391    test loss 0.6561    train acc 0.6399    test acc 0.6160
+[2021-07-07 15:03:25] epoch 35   training loss 0.6411    test loss 0.6571    train acc 0.6434    test acc 0.6165
+[2021-07-07 15:03:26] epoch 36   training loss 0.6379    test loss 0.6600    train acc 0.6436    test acc 0.6035
+[2021-07-07 15:03:27] epoch 37   training loss 0.6363    test loss 0.6555    train acc 0.6458    test acc 0.6145
+[2021-07-07 15:03:28] epoch 38   training loss 0.6322    test loss 0.6549    train acc 0.6511    test acc 0.6175
+[2021-07-07 15:03:30] epoch 39   training loss 0.6318    test loss 0.6591    train acc 0.6526    test acc 0.6105
+[2021-07-07 15:03:31] epoch 40   training loss 0.6351    test loss 0.6590    train acc 0.6481    test acc 0.6100
+[2021-07-07 15:03:32] epoch 41   training loss 0.6331    test loss 0.6569    train acc 0.6510    test acc 0.6040
+[2021-07-07 15:03:33] epoch 42   training loss 0.6288    test loss 0.6633    train acc 0.6551    test acc 0.6050
+[2021-07-07 15:03:34] epoch 43   training loss 0.6297    test loss 0.6568    train acc 0.6558    test acc 0.6110
+[2021-07-07 15:03:36] epoch 44   training loss 0.6283    test loss 0.6594    train acc 0.6575    test acc 0.6085
+[2021-07-07 15:03:37] epoch 45   training loss 0.6279    test loss 0.6597    train acc 0.6549    test acc 0.6020
+[2021-07-07 15:03:38] epoch 46   training loss 0.6268    test loss 0.6602    train acc 0.6629    test acc 0.6055
+[2021-07-07 15:03:39] epoch 47   training loss 0.6268    test loss 0.6560    train acc 0.6583    test acc 0.6265
+[2021-07-07 15:03:40] epoch 48   training loss 0.6299    test loss 0.6490    train acc 0.6515    test acc 0.6340
+[2021-07-07 15:03:42] epoch 49   training loss 0.6234    test loss 0.6551    train acc 0.6620    test acc 0.6135
+[2021-07-07 15:03:43] epoch 50   training loss 0.6268    test loss 0.6510    train acc 0.6631    test acc 0.6370
+[2021-07-07 15:03:44] epoch 51   training loss 0.6229    test loss 0.6526    train acc 0.6601    test acc 0.6160
+[2021-07-07 15:03:45] epoch 52   training loss 0.6246    test loss 0.6566    train acc 0.6619    test acc 0.6145
+[2021-07-07 15:03:46] epoch 53   training loss 0.6215    test loss 0.6435    train acc 0.6643    test acc 0.6375
+[2021-07-07 15:03:48] epoch 54   training loss 0.6236    test loss 0.6541    train acc 0.6635    test acc 0.6145
+[2021-07-07 15:03:49] epoch 55   training loss 0.6143    test loss 0.6556    train acc 0.6759    test acc 0.6090
+[2021-07-07 15:03:50] epoch 56   training loss 0.6211    test loss 0.6557    train acc 0.6680    test acc 0.6035
+[2021-07-07 15:03:51] epoch 57   training loss 0.6225    test loss 0.6572    train acc 0.6616    test acc 0.6145
+[2021-07-07 15:03:52] epoch 58   training loss 0.6189    test loss 0.6613    train acc 0.6746    test acc 0.6010
+[2021-07-07 15:03:54] epoch 59   training loss 0.6156    test loss 0.6545    train acc 0.6717    test acc 0.6160
+[2021-07-07 15:03:55] epoch 60   training loss 0.6162    test loss 0.6485    train acc 0.6719    test acc 0.6255
+[2021-07-07 15:03:56] epoch 61   training loss 0.6146    test loss 0.6509    train acc 0.6735    test acc 0.6190
+[2021-07-07 15:03:58] epoch 62   training loss 0.6135    test loss 0.6574    train acc 0.6776    test acc 0.6155
+[2021-07-07 15:03:59] epoch 63   training loss 0.6126    test loss 0.6555    train acc 0.6779    test acc 0.6165
+[2021-07-07 15:04:00] epoch 64   training loss 0.6129    test loss 0.6601    train acc 0.6773    test acc 0.6110
+[2021-07-07 15:04:01] epoch 65   training loss 0.6127    test loss 0.6497    train acc 0.6756    test acc 0.6210
+[2021-07-07 15:04:02] epoch 66   training loss 0.6121    test loss 0.6496    train acc 0.6789    test acc 0.6200
+[2021-07-07 15:04:03] epoch 67   training loss 0.6123    test loss 0.6474    train acc 0.6783    test acc 0.6290
+[2021-07-07 15:04:05] epoch 68   training loss 0.6056    test loss 0.6587    train acc 0.6883    test acc 0.6095
+[2021-07-07 15:04:06] epoch 69   training loss 0.6096    test loss 0.6492    train acc 0.6810    test acc 0.6330
+[2021-07-07 15:04:07] epoch 70   training loss 0.6103    test loss 0.6534    train acc 0.6793    test acc 0.6330
+[2021-07-07 15:04:08] epoch 71   training loss 0.6144    test loss 0.6502    train acc 0.6736    test acc 0.6235
+[2021-07-07 15:04:09] epoch 72   training loss 0.6099    test loss 0.6519    train acc 0.6781    test acc 0.6205
+[2021-07-07 15:04:10] epoch 73   training loss 0.6094    test loss 0.6472    train acc 0.6789    test acc 0.6315
+[2021-07-07 15:04:12] epoch 74   training loss 0.6070    test loss 0.6539    train acc 0.6867    test acc 0.6115
+[2021-07-07 15:04:13] epoch 75   training loss 0.6079    test loss 0.6497    train acc 0.6864    test acc 0.6255
+[2021-07-07 15:04:14] epoch 76   training loss 0.6059    test loss 0.6507    train acc 0.6859    test acc 0.6205
+[2021-07-07 15:04:15] epoch 77   training loss 0.6042    test loss 0.6532    train acc 0.6871    test acc 0.6235
+[2021-07-07 15:04:16] epoch 78   training loss 0.6008    test loss 0.6530    train acc 0.6963    test acc 0.6285
+[2021-07-07 15:04:17] epoch 79   training loss 0.6054    test loss 0.6533    train acc 0.6836    test acc 0.6195
+[2021-07-07 15:04:18] epoch 80   training loss 0.6030    test loss 0.6453    train acc 0.6906    test acc 0.6335
+[2021-07-07 15:04:20] epoch 81   training loss 0.6011    test loss 0.6428    train acc 0.6935    test acc 0.6320
+[2021-07-07 15:04:21] epoch 82   training loss 0.5985    test loss 0.6566    train acc 0.7010    test acc 0.6015
+[2021-07-07 15:04:22] epoch 83   training loss 0.6015    test loss 0.6527    train acc 0.6911    test acc 0.6280
+[2021-07-07 15:04:23] epoch 84   training loss 0.6019    test loss 0.6506    train acc 0.6905    test acc 0.6290
+[2021-07-07 15:04:24] epoch 85   training loss 0.5983    test loss 0.6384    train acc 0.6936    test acc 0.6425
+[2021-07-07 15:04:25] epoch 86   training loss 0.5981    test loss 0.6544    train acc 0.6969    test acc 0.6245
+[2021-07-07 15:04:27] epoch 87   training loss 0.5963    test loss 0.6525    train acc 0.6999    test acc 0.6140
+[2021-07-07 15:04:28] epoch 88   training loss 0.5960    test loss 0.6452    train acc 0.6946    test acc 0.6285
+[2021-07-07 15:04:29] epoch 89   training loss 0.5973    test loss 0.6534    train acc 0.6939    test acc 0.6150
+[2021-07-07 15:04:30] epoch 90   training loss 0.5950    test loss 0.6460    train acc 0.7036    test acc 0.6320
+[2021-07-07 15:04:31] epoch 91   training loss 0.5933    test loss 0.6499    train acc 0.6970    test acc 0.6210
+[2021-07-07 15:04:32] epoch 92   training loss 0.5944    test loss 0.6562    train acc 0.6986    test acc 0.6130
+[2021-07-07 15:04:33] epoch 93   training loss 0.5946    test loss 0.6543    train acc 0.6970    test acc 0.6135
+[2021-07-07 15:04:35] epoch 94   training loss 0.5898    test loss 0.6577    train acc 0.7060    test acc 0.6125
+[2021-07-07 15:04:36] epoch 95   training loss 0.5923    test loss 0.6490    train acc 0.7043    test acc 0.6300
+[2021-07-07 15:04:37] epoch 96   training loss 0.5917    test loss 0.6461    train acc 0.7053    test acc 0.6400
+[2021-07-07 15:04:38] epoch 97   training loss 0.5891    test loss 0.6499    train acc 0.7043    test acc 0.6285
+[2021-07-07 15:04:39] epoch 98   training loss 0.5920    test loss 0.6455    train acc 0.7001    test acc 0.6205
+[2021-07-07 15:04:40] epoch 99   training loss 0.5903    test loss 0.6545    train acc 0.7024    test acc 0.6210
+[2021-07-07 15:04:41] epoch 100   training loss 0.5871    test loss 0.6537    train acc 0.7123    test acc 0.6170
+[2021-07-07 15:04:43] epoch 101   training loss 0.5897    test loss 0.6453    train acc 0.7060    test acc 0.6245
+[2021-07-07 15:04:44] epoch 102   training loss 0.5852    test loss 0.6419    train acc 0.7157    test acc 0.6380
+[2021-07-07 15:04:45] epoch 103   training loss 0.5848    test loss 0.6520    train acc 0.7154    test acc 0.6295
+[2021-07-07 15:04:46] epoch 104   training loss 0.5896    test loss 0.6491    train acc 0.7034    test acc 0.6270
+[2021-07-07 15:04:47] epoch 105   training loss 0.5847    test loss 0.6475    train acc 0.7144    test acc 0.6260
+[2021-07-07 15:04:48] epoch 106   training loss 0.5804    test loss 0.6514    train acc 0.7177    test acc 0.6240
+[2021-07-07 15:04:49] epoch 107   training loss 0.5847    test loss 0.6525    train acc 0.7121    test acc 0.6240
+[2021-07-07 15:04:51] epoch 108   training loss 0.5882    test loss 0.6476    train acc 0.7093    test acc 0.6260
+[2021-07-07 15:04:52] epoch 109   training loss 0.5837    test loss 0.6448    train acc 0.7149    test acc 0.6300
+[2021-07-07 15:04:53] epoch 110   training loss 0.5794    test loss 0.6447    train acc 0.7225    test acc 0.6340
+[2021-07-07 15:04:54] epoch 111   training loss 0.5852    test loss 0.6398    train acc 0.7099    test acc 0.6460
+[2021-07-07 15:04:55] epoch 112   training loss 0.5852    test loss 0.6460    train acc 0.7114    test acc 0.6330
+[2021-07-07 15:04:57] epoch 113   training loss 0.5796    test loss 0.6475    train acc 0.7195    test acc 0.6305
+[2021-07-07 15:04:58] epoch 114   training loss 0.5800    test loss 0.6534    train acc 0.7201    test acc 0.6150
+[2021-07-07 15:04:59] epoch 115   training loss 0.5752    test loss 0.6552    train acc 0.7246    test acc 0.6195
+[2021-07-07 15:05:00] epoch 116   training loss 0.5782    test loss 0.6479    train acc 0.7192    test acc 0.6245
+[2021-07-07 15:05:01] epoch 117   training loss 0.5782    test loss 0.6546    train acc 0.7192    test acc 0.6140
+[2021-07-07 15:05:03] epoch 118   training loss 0.5783    test loss 0.6497    train acc 0.7173    test acc 0.6255
+[2021-07-07 15:05:04] epoch 119   training loss 0.5795    test loss 0.6488    train acc 0.7185    test acc 0.6230
+[2021-07-07 15:05:05] epoch 120   training loss 0.5764    test loss 0.6542    train acc 0.7244    test acc 0.6165
+[2021-07-07 15:05:06] epoch 121   training loss 0.5767    test loss 0.6402    train acc 0.7234    test acc 0.6410
+[2021-07-07 15:05:07] epoch 122   training loss 0.5755    test loss 0.6598    train acc 0.7244    test acc 0.6060
+[2021-07-07 15:05:09] epoch 123   training loss 0.5744    test loss 0.6520    train acc 0.7299    test acc 0.6225
+[2021-07-07 15:05:10] epoch 124   training loss 0.5735    test loss 0.6489    train acc 0.7269    test acc 0.6310
+[2021-07-07 15:05:11] epoch 125   training loss 0.5691    test loss 0.6411    train acc 0.7314    test acc 0.6380
+[2021-07-07 15:05:12] epoch 126   training loss 0.5694    test loss 0.6509    train acc 0.7288    test acc 0.6240
+[2021-07-07 15:05:13] epoch 127   training loss 0.5710    test loss 0.6447    train acc 0.7298    test acc 0.6340
+[2021-07-07 15:05:15] epoch 128   training loss 0.5693    test loss 0.6521    train acc 0.7308    test acc 0.6190
+[2021-07-07 15:05:16] epoch 129   training loss 0.5708    test loss 0.6534    train acc 0.7284    test acc 0.6135
+[2021-07-07 15:05:17] epoch 130   training loss 0.5695    test loss 0.6522    train acc 0.7328    test acc 0.6265
+[2021-07-07 15:05:18] epoch 131   training loss 0.5696    test loss 0.6463    train acc 0.7282    test acc 0.6360
+[2021-07-07 15:05:19] epoch 132   training loss 0.5659    test loss 0.6480    train acc 0.7362    test acc 0.6260
+[2021-07-07 15:05:21] epoch 133   training loss 0.5657    test loss 0.6400    train acc 0.7376    test acc 0.6435
+[2021-07-07 15:05:22] epoch 134   training loss 0.5674    test loss 0.6529    train acc 0.7334    test acc 0.6155
+[2021-07-07 15:05:23] epoch 135   training loss 0.5642    test loss 0.6487    train acc 0.7328    test acc 0.6250
+[2021-07-07 15:05:24] epoch 136   training loss 0.5691    test loss 0.6445    train acc 0.7266    test acc 0.6410
+[2021-07-07 15:05:25] epoch 137   training loss 0.5695    test loss 0.6503    train acc 0.7330    test acc 0.6235
+[2021-07-07 15:05:27] epoch 138   training loss 0.5649    test loss 0.6599    train acc 0.7371    test acc 0.6145
+[2021-07-07 15:05:28] epoch 139   training loss 0.5643    test loss 0.6492    train acc 0.7405    test acc 0.6315
+[2021-07-07 15:05:29] epoch 140   training loss 0.5673    test loss 0.6527    train acc 0.7314    test acc 0.6105
+[2021-07-07 15:05:30] epoch 141   training loss 0.5622    test loss 0.6488    train acc 0.7408    test acc 0.6340
+[2021-07-07 15:05:31] epoch 142   training loss 0.5627    test loss 0.6461    train acc 0.7356    test acc 0.6210
+[2021-07-07 15:05:33] epoch 143   training loss 0.5577    test loss 0.6508    train acc 0.7450    test acc 0.6280
+[2021-07-07 15:05:34] epoch 144   training loss 0.5614    test loss 0.6482    train acc 0.7408    test acc 0.6265
+[2021-07-07 15:05:35] epoch 145   training loss 0.5598    test loss 0.6510    train acc 0.7429    test acc 0.6155
+[2021-07-07 15:05:36] epoch 146   training loss 0.5605    test loss 0.6559    train acc 0.7431    test acc 0.6095
+[2021-07-07 15:05:37] epoch 147   training loss 0.5585    test loss 0.6500    train acc 0.7470    test acc 0.6305
+[2021-07-07 15:05:38] epoch 148   training loss 0.5581    test loss 0.6551    train acc 0.7459    test acc 0.6095
+[2021-07-07 15:05:40] epoch 149   training loss 0.5628    test loss 0.6491    train acc 0.7366    test acc 0.6380
+[2021-07-07 15:05:41] epoch 150   training loss 0.5560    test loss 0.6542    train acc 0.7498    test acc 0.6150
+[2021-07-07 15:05:42] epoch 151   training loss 0.5576    test loss 0.6500    train acc 0.7449    test acc 0.6310
+[2021-07-07 15:05:43] epoch 152   training loss 0.5522    test loss 0.6430    train acc 0.7546    test acc 0.6335
+[2021-07-07 15:05:44] epoch 153   training loss 0.5551    test loss 0.6414    train acc 0.7498    test acc 0.6475
+[2021-07-07 15:05:46] epoch 154   training loss 0.5541    test loss 0.6504    train acc 0.7515    test acc 0.6235
+[2021-07-07 15:05:47] epoch 155   training loss 0.5530    test loss 0.6506    train acc 0.7492    test acc 0.6140
+[2021-07-07 15:05:48] epoch 156   training loss 0.5509    test loss 0.6463    train acc 0.7544    test acc 0.6345
+[2021-07-07 15:05:49] epoch 157   training loss 0.5500    test loss 0.6520    train acc 0.7532    test acc 0.6125
+[2021-07-07 15:05:50] epoch 158   training loss 0.5503    test loss 0.6454    train acc 0.7554    test acc 0.6355
+[2021-07-07 15:05:52] epoch 159   training loss 0.5540    test loss 0.6457    train acc 0.7478    test acc 0.6245
+[2021-07-07 15:05:53] epoch 160   training loss 0.5504    test loss 0.6524    train acc 0.7548    test acc 0.6220
+[2021-07-07 15:05:54] epoch 161   training loss 0.5486    test loss 0.6479    train acc 0.7574    test acc 0.6260
+[2021-07-07 15:05:55] epoch 162   training loss 0.5524    test loss 0.6531    train acc 0.7491    test acc 0.6265
+[2021-07-07 15:05:56] epoch 163   training loss 0.5480    test loss 0.6500    train acc 0.7572    test acc 0.6245
+[2021-07-07 15:05:58] epoch 164   training loss 0.5490    test loss 0.6456    train acc 0.7559    test acc 0.6290
+[2021-07-07 15:05:59] epoch 165   training loss 0.5419    test loss 0.6426    train acc 0.7688    test acc 0.6350
+[2021-07-07 15:06:00] epoch 166   training loss 0.5463    test loss 0.6485    train acc 0.7620    test acc 0.6260
+[2021-07-07 15:06:01] epoch 167   training loss 0.5472    test loss 0.6473    train acc 0.7618    test acc 0.6320
+[2021-07-07 15:06:02] epoch 168   training loss 0.5452    test loss 0.6438    train acc 0.7608    test acc 0.6360
+[2021-07-07 15:06:04] epoch 169   training loss 0.5460    test loss 0.6476    train acc 0.7621    test acc 0.6290
+[2021-07-07 15:06:05] epoch 170   training loss 0.5483    test loss 0.6470    train acc 0.7574    test acc 0.6345
+[2021-07-07 15:06:06] epoch 171   training loss 0.5466    test loss 0.6533    train acc 0.7610    test acc 0.6145
+[2021-07-07 15:06:07] epoch 172   training loss 0.5411    test loss 0.6489    train acc 0.7662    test acc 0.6205
+[2021-07-07 15:06:08] epoch 173   training loss 0.5427    test loss 0.6522    train acc 0.7641    test acc 0.6185
+[2021-07-07 15:06:10] epoch 174   training loss 0.5389    test loss 0.6549    train acc 0.7700    test acc 0.6180
+[2021-07-07 15:06:11] epoch 175   training loss 0.5398    test loss 0.6436    train acc 0.7720    test acc 0.6410
+[2021-07-07 15:06:12] epoch 176   training loss 0.5366    test loss 0.6421    train acc 0.7725    test acc 0.6355
+[2021-07-07 15:06:13] epoch 177   training loss 0.5404    test loss 0.6556    train acc 0.7704    test acc 0.6135
+[2021-07-07 15:06:14] epoch 178   training loss 0.5370    test loss 0.6550    train acc 0.7741    test acc 0.6235
+[2021-07-07 15:06:16] epoch 179   training loss 0.5376    test loss 0.6539    train acc 0.7756    test acc 0.6195
+[2021-07-07 15:06:17] epoch 180   training loss 0.5396    test loss 0.6467    train acc 0.7678    test acc 0.6280
+[2021-07-07 15:06:18] epoch 181   training loss 0.5394    test loss 0.6482    train acc 0.7671    test acc 0.6335
+[2021-07-07 15:06:19] epoch 182   training loss 0.5369    test loss 0.6416    train acc 0.7740    test acc 0.6450
+[2021-07-07 15:06:20] epoch 183   training loss 0.5355    test loss 0.6547    train acc 0.7769    test acc 0.6165
+[2021-07-07 15:06:22] epoch 184   training loss 0.5338    test loss 0.6484    train acc 0.7781    test acc 0.6225
+[2021-07-07 15:06:23] epoch 185   training loss 0.5348    test loss 0.6435    train acc 0.7715    test acc 0.6320
+[2021-07-07 15:06:24] epoch 186   training loss 0.5330    test loss 0.6423    train acc 0.7765    test acc 0.6340
+[2021-07-07 15:06:25] epoch 187   training loss 0.5348    test loss 0.6465    train acc 0.7756    test acc 0.6350
+[2021-07-07 15:06:26] epoch 188   training loss 0.5331    test loss 0.6464    train acc 0.7775    test acc 0.6325
+[2021-07-07 15:06:28] epoch 189   training loss 0.5335    test loss 0.6486    train acc 0.7738    test acc 0.6225
+[2021-07-07 15:06:29] epoch 190   training loss 0.5331    test loss 0.6544    train acc 0.7798    test acc 0.6175
+[2021-07-07 15:06:30] epoch 191   training loss 0.5301    test loss 0.6396    train acc 0.7829    test acc 0.6370
+[2021-07-07 15:06:31] epoch 192   training loss 0.5304    test loss 0.6400    train acc 0.7823    test acc 0.6310
+[2021-07-07 15:06:32] epoch 193   training loss 0.5279    test loss 0.6485    train acc 0.7847    test acc 0.6290
+[2021-07-07 15:06:34] epoch 194   training loss 0.5267    test loss 0.6398    train acc 0.7853    test acc 0.6390
+[2021-07-07 15:06:35] epoch 195   training loss 0.5298    test loss 0.6436    train acc 0.7837    test acc 0.6270
+[2021-07-07 15:06:36] epoch 196   training loss 0.5248    test loss 0.6464    train acc 0.7905    test acc 0.6190
+[2021-07-07 15:06:37] epoch 197   training loss 0.5282    test loss 0.6453    train acc 0.7825    test acc 0.6260
+[2021-07-07 15:06:38] epoch 198   training loss 0.5264    test loss 0.6402    train acc 0.7856    test acc 0.6325
+[2021-07-07 15:06:40] epoch 199   training loss 0.5266    test loss 0.6536    train acc 0.7851    test acc 0.6170
+[2021-07-07 15:06:41] epoch 200   training loss 0.5244    test loss 0.6572    train acc 0.7917    test acc 0.6190
+[2021-07-07 15:06:42] epoch 201   training loss 0.5248    test loss 0.6418    train acc 0.7883    test acc 0.6335
+[2021-07-07 15:06:43] epoch 202   training loss 0.5277    test loss 0.6429    train acc 0.7841    test acc 0.6340
+[2021-07-07 15:06:45] epoch 203   training loss 0.5225    test loss 0.6461    train acc 0.7911    test acc 0.6310
+[2021-07-07 15:06:46] epoch 204   training loss 0.5216    test loss 0.6473    train acc 0.7945    test acc 0.6250
+[2021-07-07 15:06:47] epoch 205   training loss 0.5232    test loss 0.6425    train acc 0.7913    test acc 0.6400
+[2021-07-07 15:06:48] epoch 206   training loss 0.5179    test loss 0.6499    train acc 0.7997    test acc 0.6235
+[2021-07-07 15:06:49] epoch 207   training loss 0.5193    test loss 0.6449    train acc 0.7947    test acc 0.6295
+[2021-07-07 15:06:51] epoch 208   training loss 0.5206    test loss 0.6488    train acc 0.7933    test acc 0.6205
+[2021-07-07 15:06:52] epoch 209   training loss 0.5192    test loss 0.6497    train acc 0.7947    test acc 0.6245
+[2021-07-07 15:06:53] epoch 210   training loss 0.5172    test loss 0.6430    train acc 0.7960    test acc 0.6280
+[2021-07-07 15:06:54] epoch 211   training loss 0.5188    test loss 0.6547    train acc 0.7980    test acc 0.6200
+[2021-07-07 15:06:55] epoch 212   training loss 0.5152    test loss 0.6455    train acc 0.8024    test acc 0.6335
+[2021-07-07 15:06:57] epoch 213   training loss 0.5176    test loss 0.6464    train acc 0.7991    test acc 0.6330
+[2021-07-07 15:06:58] epoch 214   training loss 0.5197    test loss 0.6480    train acc 0.7943    test acc 0.6285
+[2021-07-07 15:06:59] epoch 215   training loss 0.5142    test loss 0.6450    train acc 0.8049    test acc 0.6340
+[2021-07-07 15:07:00] epoch 216   training loss 0.5136    test loss 0.6531    train acc 0.8055    test acc 0.6125
+[2021-07-07 15:07:01] epoch 217   training loss 0.5140    test loss 0.6467    train acc 0.8059    test acc 0.6225
+[2021-07-07 15:07:03] epoch 218   training loss 0.5122    test loss 0.6500    train acc 0.8059    test acc 0.6255
+[2021-07-07 15:07:04] epoch 219   training loss 0.5148    test loss 0.6541    train acc 0.7973    test acc 0.6240
+[2021-07-07 15:07:05] epoch 220   training loss 0.5168    test loss 0.6425    train acc 0.7954    test acc 0.6435
+[2021-07-07 15:07:05] best acc: 0.6475
+[2021-07-07 15:07:05] best acc : 0.6475
+[2021-07-07 15:07:05] worst acc: 0.6510
+[2021-07-07 15:07:05] acc final: 0.6492+0.0018
